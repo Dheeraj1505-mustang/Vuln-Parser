@@ -1,0 +1,56 @@
+Target: localhost:3000
+==================================================
+
+Nmap Findings:
+No common open ports detected
+
+Subdomains discovered:
+No subdomains found
+
+URLs collected:
+- http://localhost:3000/robots.txt
+- http://localhost:3000/public/build/vendors~app.898fe9e20a782b4232fe.js
+- http://http://localhost:3000/colunista/levivasconcelos
+- http://localhost:3000/assets/index.js
+- http://localhost:3000/public/build/app.898fe9e20a782b4232fe.js
+- http://localhost:3000/public/build/grafana.dark.898fe9e20a782b4232fe.css
+- http://localhost:3000/2016/7/27/headlines/sanders_supporters_walk_out_stage_sit_in_to_protest_nomination?utm_source=Democracy+Now!&utm_campaign=3459c5b216-Daily_Digest&utm_medium=email&utm_term=0_fa2346a853-3459c5b216-190288189
+- http://localhost:3000/public/build/moment~app.898fe9e20a782b4232fe.js
+- http://localhost:3000/public/build/angular~app.898fe9e20a782b4232fe.js
+- http://localhost:3000/public/fonts/roboto/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2
+
+JavaScript Analysis (Summary):
+
+File: http://localhost:3000/public/build/vendors~app.898fe9e20a782b4232fe.js
+Reason: Discovered during crawling
+Analysis: Checked for DOM-based XSS
+Result: No dangerous patterns found
+
+File: http://localhost:3000/assets/index.js
+Reason: Discovered during crawling
+Analysis: Checked for DOM-based XSS
+Result: No dangerous patterns found
+
+File: http://localhost:3000/public/build/app.898fe9e20a782b4232fe.js
+Reason: Discovered during crawling
+Analysis: Checked for DOM-based XSS
+Result: No dangerous patterns found
+
+File: http://localhost:3000/public/build/moment~app.898fe9e20a782b4232fe.js
+Reason: Discovered during crawling
+Analysis: Checked for DOM-based XSS
+Result: No dangerous patterns found
+
+File: http://localhost:3000/public/build/angular~app.898fe9e20a782b4232fe.js
+Reason: Discovered during crawling
+Analysis: Checked for DOM-based XSS
+Result: No dangerous patterns found
+
+File: http://localhost:3000/public/build/runtime.898fe9e20a782b4232fe.js
+Reason: Discovered during crawling
+Analysis: Checked for DOM-based XSS
+Result: No dangerous patterns found
+
+XSS Evidence:
+
+No client-side XSS patterns detected

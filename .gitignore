@@ -1,0 +1,14 @@
+venv/
+node_modules/
+__pycache__/
+*.pyc
+*.pptx
+*.pdf
+*.mp4
+*.docx
+demo.testfire.net/
+testphp.vulnweb.com/
+zero.webappsecurity.com/
+webdriveruniversity.com/
+XSStrike/
+lazyXss/

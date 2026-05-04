@@ -1,0 +1,5 @@
+https://demo.testfire.net/search.jsp?query=
+http://demo.testfire.net/search.jsp?query=1234
+https://demo.testfire.net/search.jsp?query=1234Cookie:
+http://demo.testfire.net/search.jsp?query=%3Cscript%3Ealert%28%EF%BF%BDXSS+test%EF%BF%BD%29%3C%2Fscript%3E
+https://demo.testfire.net/search.jsp?query=%3Cscript%3Ealert(1)%3C%2Fscript%3E
